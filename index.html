@@ -110,18 +110,20 @@
         </div>
     </section>
     <section class="service">
-        <img src="./images/arrow-up.svg" alt="arrow" class="service__arrow">
         <div class="service__cont">
-            <img class="service__icon" src="./images/service-icon.svg" alt="icon"/>
-            <h3 class="service__title">Goede service, lekker eten, toffe ambiance</h3>
-            <p class="service__text">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-                justo duo  dolores et ea rebum. Stet clita kasd gubergren.
-            </p>
-            <p class="service__author">ALAIN HEYNDRICKX</p>
+            <img src="./images/arrow-up.svg" alt="arrow" class="service__arrow">
+            <div class="service__cont-text">
+                <img class="service__icon" src="./images/service-icon.svg" alt="icon"/>
+                <h3 class="service__title">Goede service, lekker eten, toffe ambiance</h3>
+                <p class="service__text">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et 
+                    justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                </p>
+                <p class="service__author">ALAIN HEYNDRICKX</p>
+            </div>
+            <img src="./images/arrow-down.svg" alt="arrow" class="service__arrow">
         </div>
-        <img src="./images/arrow-down.svg" alt="arrow" class="service__arrow">
     </section>
     <section class="meal">
         <ul class="meal__items">
@@ -157,6 +159,91 @@
             </li>
         </ul>
     </section>
+    <section class="fotos">
+        <div class="fotos__cont">
+            <div class="fotos__descr">
+                <h3 class="fotos__title">Sfeerfoto's</h3>
+                <p class="fotos__subtitle">
+                    De beste manier om de sfeer te ervaren is eens langskomen.
+                    In tussentijd hebben we hier alvast wat foto’s voor je klaar.
+                </p>
+            </div>
+            <div class="fotos__arrows">
+                <img src="./images/arrow-up.svg" alt="arrow" class="service__arrow">
+                <img src="./images/arrow-down.svg" alt="arrow" class="service__arrow">
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="contacts__cont">
+            <div class="contacts__contacts">
+                <h4 class="contacts__title">Contacts</h4>
+                <ul class="contacts__items">
+                    <li class="contacts__item">
+                        <div class="contacts__icon">
+                            <img src="./images/contacts-tel.svg" alt="tel" class="contacts__img">
+                        </div>
+                        <div class="contacts__descr">
+                            <h6 class="contacts__subtitle">Phone Number</h6>
+                            <p class="contacts__text">+32 9 282 57 25</p>
+                        </div>
+                    </li>
+                    <li class="contacts__item">
+                        <div class="contacts__icon">
+                            <img src="./images/contacts-email.svg" alt="email" class="contacts__img">
+                        </div>
+                        <div class="contacts__descr">
+                            <h6 class="contacts__subtitle">Email</h6>
+                            <p class="contacts__text">info@email.com</p>
+                        </div>
+                    </li>
+                    <li class="contacts__item">
+                        <div class="contacts__icon">
+                            <img src="./images/contacts-clock.svg" alt="clock" class="contacts__img">
+                        </div>
+                        <div class="contacts__descr">
+                            <h6 class="contacts__subtitle">Opening Hours</h6>
+                            <p class="contacts__text">Everyday from 6 AM - 9 PM</p>
+                        </div>
+                    </li>
+                    <li class="contacts__item">
+                        <div class="contacts__icon">
+                            <img src="./images/contacts-location.svg" alt="location" class="contacts__img">
+                        </div>
+                        <div class="contacts__descr">
+                            <h6 class="contacts__subtitle">Map Street</h6>
+                            <p class="contacts__text">Jl. Raya Surabaya 2787</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="contacts__questions">
+                <h4 class="contacts__title contacts__title_type_questions">have any questions?</h4>
+                <form class="form" name="text">
+                    <div class="form__inputs">
+                        <fieldset class="form__fieldset">
+                            <label for="name" class="form__label">Name</label>
+                            <input id="name" type="text" class="form__input" placeholder="Input your name" name="name"/>
+                        </fieldset>
+                        <fieldset class="form__fieldset">
+                            <label for="email" class="form__label">Email</label>
+                            <input id="email" type="email" class="form__input" placeholder="Input your email" name="email"/>
+                        </fieldset>
+                    </div>
+                    <fieldset class="form__fieldset">
+                        <label for="title" class="form__label">Speciale Request</label>
+                        <textarea rows="5" id="title" class="form__textarea" name="title" placeholder="Input your special request"></textarea>
+                    </fieldset>
+                    <button type="button" class="form__submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <sestion class="location">
+        <div class="location__cont">
+            <img src="./images/location.jpg" alt="location" class="location__img">
+        </div>
+    </sestion>
     <div class="burger">
         <div class="burger__container">
             <button type="button" class="burger__button"></button>
