@@ -15,7 +15,7 @@ h1, h3, h4, h6, p {
 .header {
     padding: 55px 80px 0px;
     /* width: 62%; */
-    max-width: 1168px;
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -105,7 +105,7 @@ h1, h3, h4, h6, p {
 }
 .content {
     padding: 154px 80px 0px;
-    max-width: 1168px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 .content__subtitle {
@@ -180,7 +180,7 @@ h1, h3, h4, h6, p {
     display: flex;
 }
 .review__cont {
-    max-width: 1168px;
+    max-width: 1170px;
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -273,7 +273,7 @@ h1, h3, h4, h6, p {
     background: #3A4574;
 }
 .service__cont {
-    max-width: 1168px;
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -331,7 +331,7 @@ h1, h3, h4, h6, p {
     padding: 109px 80px 80px;
 }
 .meal__items {
-    max-width: 1168px;
+    max-width: 1170px;
     margin: 0 auto;
     list-style: none;
     padding: 0;
@@ -385,7 +385,7 @@ h1, h3, h4, h6, p {
     background: #3A4574;
 }
 .fotos__cont {
-    max-width: 1168px;
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -418,7 +418,7 @@ h1, h3, h4, h6, p {
     padding: 404px 80px 50px;
 }
 .contacts__cont {
-    max-width: 1168px;
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -545,13 +545,28 @@ input, label {
     padding: 0 80px 526px;
 }
 .location__cont {
-    max-width: 1168px;
+    max-width: 1170px;
+    width: calc(100% - (2 * 80px));
     margin: 0 auto;
-    width: 100%;
+    overflow: hidden;
 }
 .location__img {
-    max-width: 100%;
+    margin: 0 auto;
+    height: 547px;;
+    background-image: url(./images/location.jpg);
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
+}
+.location__captions {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.content__media-btn_type_black {
+    background-image: url(./images/media-btn-black.svg);
+    background-color: #FFF;
+    color: #000;
 }
 
 /* //////////// */
