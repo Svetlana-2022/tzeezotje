@@ -1,21 +1,25 @@
+@import url(../vendor/normalize.css);
 @font-face { 
-    font-family: "Inter";
-    src: url("./inter/Inter-Black.woff") format("woff"),
-    url("./inter/Inter-Black.woff2") format("woff2");
+    font-family: "Poppins";
+    src: url("./Poppins-Bold.woff") format("woff");
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
 }
 @font-face { 
-    font-family: "Inter";
-    src: url("./inter/Inter-Medium.woff") format("woff"),
-    url("./inter/Inter-Medium.woff2") format("woff2");
+    font-family: "Poppins";
+    src: url("./Poppins-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face { 
+    font-family: "Poppins";
+    src: url("./Poppins-Medium.woff") format("woff");
     font-style: normal;
     font-weight: 500;
 }
 @font-face { 
-    font-family: "Inter";
-    src: url("./inter/Inter-Regular.woff") format("woff"),
-    url("./inter/Inter-Regular.woff2") format("woff2");
+    font-family: "Poppins";
+    src: url("./Poppins-Regular.woff") format("woff");
     font-style: normal;
     font-weight: 400;
 }
