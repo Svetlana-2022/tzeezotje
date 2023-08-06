@@ -504,7 +504,8 @@ h1, h3, h4, h6, p {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+    /* justify-content: space-between; */
     align-items: center;
 }
 .service__arrow {
@@ -534,10 +535,100 @@ h1, h3, h4, h6, p {
         height: 38px;
     }
 }
-.service__cont-text {
-    max-width: 785px;
+  /* слайдер  */
+.service__slider {
+    margin: auto;
+    width: 785px;
+    min-height: 152px;
+    overflow: hidden;
+}
+@media screen and (max-width: 1144px) {
+    .service__slider {
+        width: 580px;
+    }
+}
+@media screen and (max-width: 912px) {
+    .service__slider {
+        width: 450px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .service__slider {
+        width: 320px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .service__slider {
+        width: 220px;
+    }
+}
+@media screen and (max-width: 412px) {
+    .service__slider {
+        width: 180px;
+    }
+}
+.service__line {
+    width: 2355px;
+    display: flex;
+    position: relative;
+    transition: all ease 1.5s;
+}
+@media screen and (max-width: 1144px) {
+    .service__line {
+        width: 1740px;
+    }
+}
+@media screen and (max-width: 912px) {
+    .service__line {
+        width: 1350px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .service__line {
+        width: 960px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .service__line {
+        width: 660px;
+    }
+}
+@media screen and (max-width: 412px) {
+    .service__line {
+        width: 540px;
+    }
+}
+.service__item {
+    margin: auto;
+    width: 785px;
+    padding: 0 5px;
     display: flex;
     flex-direction: column;
+}
+@media screen and (max-width: 1144px) {
+    .service__item {
+        width: 580px;
+    }
+}
+@media screen and (max-width: 912px) {
+    .service__item {
+        width: 450px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .service__item {
+        width: 320px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .service__item {
+        width: 220px;
+    }
+}
+@media screen and (max-width: 412px) {
+    .service__item {
+        width: 180px;
+    }
 }
 .service__icon {
     margin: auto;
@@ -1388,6 +1479,14 @@ input, label {
     display: block;
     margin: 35px auto 0;
     width: 100%;
+}
+.form__span {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: red;
 }
 .form__submit_type_popup {
     margin: 20px auto 0;

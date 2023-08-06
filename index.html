@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tzeezotje</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> -->
     <link rel="stylesheet" href="./vendor/fonts/fonts.css">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -113,17 +115,43 @@
     <section class="service">
         <div class="service__cont">
             <img src="./images/arrow-up.svg" alt="arrow" class="service__arrow">
-            <div class="service__cont-text">
-                <img class="service__icon" src="./images/service-icon.svg" alt="icon"/>
-                <h3 class="service__title">Goede service, lekker eten, toffe ambiance</h3>
-                <p class="service__text">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-                    justo duo  dolores et ea rebum. Stet clita kasd gubergren.
-                </p>
-                <p class="service__author">ALAIN HEYNDRICKX</p>
+            <!--  слайдер -->
+            <div class="service__slider">
+                <!-- карточки слайдера -->
+                <div class="service__line">
+                    <div class="service__item">
+                        <img class="service__icon" src="./images/service-icon.svg" alt="icon"/>
+                        <h3 class="service__title">Goede service, lekker eten, toffe ambiance</h3>
+                        <p class="service__text">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et 
+                            justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                        </p>
+                        <p class="service__author">ALAIN HEYNDRICKX</p>
+                    </div>
+                    <div class="service__item" style="background-color: blueviolet;">
+                        <img class="service__icon" src="./images/service-icon.svg" alt="icon"/>
+                        <h3 class="service__title">Goede service, lekker eten, toffe ambiance</h3>
+                        <p class="service__text">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et 
+                            justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                        </p>
+                        <p class="service__author">ALAIN HEYNDRICKX</p>
+                    </div>
+                    <div class="service__item" style="background-color: rgb(50, 98, 185);">
+                        <img class="service__icon" src="./images/service-icon.svg" alt="icon"/>
+                        <h3 class="service__title">Goede service, lekker eten, toffe ambiance</h3>
+                        <p class="service__text">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et 
+                            justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                        </p>
+                        <p class="service__author">ALAIN HEYNDRICKX</p>
+                    </div>
+                </div>
             </div>
-            <img src="./images/arrow-down.svg" alt="arrow" class="service__arrow">
+            <img src="./images/arrow-down.svg" alt="arrow" class="service__arrow service__arrow_type_next">
         </div>
     </section>
     <section class="meal">
@@ -291,13 +319,15 @@
     <div class="popup"> 
         <div class="popup__container">
             <button type="button" class="popup__button"></button>
-            <form class="form form_type_popup" name="text">
-                <input type="text" class="form__input" placeholder="Reserve a table" name="name">
-                <button type="button" class="form__submit form__submit_type_popup">Reserve a table</button>
+            <form  class="form form_type_popup" name="text">
+                <input id="name" type="text" class="form__input" placeholder="Name" name="name">
+                <div id="errorMess" class="form__span"></div>
+                <button id="button" type="button" class="form__submit form__submit_type_popup">Reserve a table</button>
             </form>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
     <script src="./script.js"></script>
 </body>
 </html>
