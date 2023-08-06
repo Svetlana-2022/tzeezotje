@@ -162,16 +162,18 @@
     </section>
     <section class="fotos">
         <div class="fotos__cont">
-            <div class="fotos__descr">
-                <h3 class="fotos__title">Sfeerfoto's</h3>
-                <p class="fotos__subtitle">
-                    De beste manier om de sfeer te ervaren is eens langskomen.
-                    In tussentijd hebben we hier alvast wat foto’s voor je klaar.
-                </p>
-            </div>
-            <div class="fotos__arrows">
-                <img src="./images/arrow-up.svg" alt="arrow" class="service__arrow">
-                <img src="./images/arrow-down.svg" alt="arrow" class="service__arrow">
+            <div class="fotos__content">
+                <div class="fotos__descr">
+                    <h3 class="fotos__title">Sfeerfoto's</h3>
+                    <p class="fotos__subtitle">
+                        De beste manier om de sfeer te ervaren is eens langskomen.
+                        In tussentijd hebben we hier alvast wat foto’s voor je klaar.
+                    </p>
+                </div>
+                <div class="fotos__arrows">
+                    <img src="./images/arrow-up.svg" alt="arrow" class="service__arrow">
+                    <img src="./images/arrow-down.svg" alt="arrow" class="service__arrow">
+                </div>
             </div>
         </div>
         <div class="fotos__imgs">
@@ -286,6 +288,16 @@
             </div>
         </div> 
     </div>
+    <div class="popup"> 
+        <div class="popup__container">
+            <button type="button" class="popup__button"></button>
+            <form class="form form_type_popup" name="text">
+                <input type="text" class="form__input" placeholder="Reserve a table" name="name">
+                <button type="button" class="form__submit form__submit_type_popup">Reserve a table</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
