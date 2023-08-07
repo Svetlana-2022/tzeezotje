@@ -602,6 +602,7 @@ h1, h3, h4, h6, p {
     margin: auto;
     width: 785px;
     padding: 0 5px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
