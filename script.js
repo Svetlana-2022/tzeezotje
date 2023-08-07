@@ -14,26 +14,6 @@ const popup = document.querySelector('.popup');
 const buttonClose = popup.querySelector('.popup__button');
 
 // для слайдера
-// if (window.innerWidth < 1920) {
-//     btnPrev.addEventListener('click', () => {
-//         offset = offset - 785; // offset -= 785
-//         dotIndex --;
-//         if(offset < 0) {
-//             offset = 1570;
-//             dotIndex = 3;
-//         }
-//         sliderLine.style.left = - offset + 'px';
-//     });
-//     btnNext.addEventListener('click', () => {
-//         offset = offset + 785; // offset += 785
-//         dotIndex ++;
-//         if(offset > 1570) {
-//             offset = 0;
-//             dotIndex = 1;
-//         }
-//         sliderLine.style.left = - offset + 'px';
-//     });
-// }
 function calcCardsWidth () {
     const width = { init: 1570, more: 785 };
 
