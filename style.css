@@ -164,6 +164,10 @@ h1, h3, h4, h6, p {
         padding: 124px 10px 0;
     }
 }
+.form-center {
+    width: 50%;
+    margin: auto;
+}
 .content__subtitle {
     color: #FFF;
     font-variant-numeric: lining-nums proportional-nums;
